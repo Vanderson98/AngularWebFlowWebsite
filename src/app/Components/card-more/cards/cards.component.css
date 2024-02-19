@@ -1,0 +1,42 @@
+.boxCard {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  height: 12rem;
+  justify-content: space-around;
+}
+
+.boxCard .title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #292f36;
+  text-transform: capitalize;
+}
+
+.boxCard .paragraph {
+  text-align: center;
+  color: #4d5053;
+  font-weight: 400;
+}
+
+.boxCard .readMore {
+  display: flex;
+  align-items: center;
+  width: 8rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 250ms all ease;
+  color: #4d5053;
+  justify-content: space-around;
+}
+
+.boxCard .readMore:hover {
+  opacity: 50%;
+}
+
+.boxCard .readMore svg {
+  transform: translateY(2px);
+}

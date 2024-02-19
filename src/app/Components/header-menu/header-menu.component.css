@@ -1,53 +1,52 @@
-.menuHeader{
-    display: flex;
-    padding: 1rem 0;
-    width: 75rem;
-    margin: 0 auto;
-    justify-content: space-around;
-    align-items: center;
+.menuHeader {
+  display: flex;
+  padding: 1rem 0;
+  max-width: 80rem;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.menuHeader .logo{
-    padding: .25rem;
+.menuHeader .logo {
+  padding: 0.25rem;
 }
 
-.menuHeader .logo img{
-    width: 12rem;
-    height: 3rem;
+.menuHeader .logo img {
+  width: 12rem;
+  height: 3rem;
 }
 
-.buttonsLink .navList{
-    display: flex;
-    width: 40rem;
-    transform: translateY(-.10rem);
-    justify-content: space-around;
-    align-items: center;
+.buttonsLink .navList {
+  display: flex;
+  width: 40rem;
+  transform: translateY(-0.1rem);
+  justify-content: space-around;
+  align-items: center;
 }
 
-.buttonsLink .navList .navItem{
-    list-style-type: none;
-    padding: .5rem .75rem;
+.buttonsLink .navList .navItem {
+  list-style-type: none;
+  padding: 0.5rem 0.75rem;
 }
 
-
-.buttonsLink .navList .navItem .navLink{
-    color: #292F36;
-    font-weight: 500;
-    font-size: 1rem;
-    padding: .5rem;
-    text-decoration: none;
-    transition: 250ms all ease-in;
+.buttonsLink .navList .navItem .navLink {
+  color: #292f36;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: 250ms all ease-in;
 }
 
-.buttonsLink .navList .navItem .navLink:hover{
-    opacity: 75%;
+.buttonsLink .navList .navItem .navLink:hover {
+  opacity: 75%;
 }
 
-.buttonsLink .navList .navItem .searchItem{
-    padding: .5rem;
+.buttonsLink .navList .navItem .searchItem {
+  padding: 0.5rem;
 }
 
-.buttonsLink .navList .navItem .searchItem img{
-    width: 1.5rem;
-    height: 1.5rem;
+.buttonsLink .navList .navItem .searchItem img {
+  width: 1.5rem;
+  height: 1.5rem;
 }

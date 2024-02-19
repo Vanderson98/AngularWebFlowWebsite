@@ -1,0 +1,7 @@
+.boxCards {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+  max-width: 80rem;
+  margin: 0 auto;
+}
