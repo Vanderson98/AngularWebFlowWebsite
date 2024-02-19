@@ -1,27 +1,45 @@
 # WebFlow
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+WebFlow é um site dinâmico desenvolvido usando o poderoso framework Angular 17. Ele fornece uma experiência moderna e interativa para os usuários.
 
-## Development server
+## Pré-requisitos
+- Node.js e npm instalados globalmente no seu ambiente de desenvolvimento.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalação
+1. Clone este repositório em seu ambiente local:
 
-## Code scaffolding
+    ```
+    git clone https://github.com/Vanderson98/AngularWebFlowWebsite.git
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Navegue até o diretório do projeto:
 
-## Build
+    ```
+    cd AngularWebFlowWebsite
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Instale as dependências do projeto usando npm:
 
-## Running unit tests
+    ```
+    npm install
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Executando o servidor de desenvolvimento
 
-## Running end-to-end tests
+Após instalar as dependências, você pode iniciar o servidor de desenvolvimento para visualizar o site no seu navegador.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Execute o comando:
 
-## Further help
+    ```
+    ng serve
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Abra seu navegador e vá para `http://localhost:4200/`. O site estará sendo servido localmente e qualquer alteração no código será automaticamente recarregada no navegador.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para relatar bugs ou sugerir novos recursos. Se desejar contribuir diretamente, por favor, faça um fork deste repositório, faça suas alterações e envie uma pull request.
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
