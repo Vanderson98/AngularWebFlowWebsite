@@ -1,1 +1,20 @@
-<p>header-menu works!</p>
+<header class="menuHeader">
+    <section class="logo">
+        <img src="{{logoImage}}" alt="Interno Logo">
+    </section>
+
+    <section class="buttonsLink">
+        <ul class="navList">
+            <li class="navItem" *ngFor="let i of btnLinks">
+                <a href="#" class="navLink">
+                    {{i}}
+                </a>
+            </li>
+            <li class="navItem">
+                <button class="searchItem">
+                    <img src="{{imageSearch}}" alt="Search image">
+                </button>
+            </li>
+        </ul>
+    </section>
+</header>

@@ -1,10 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-header-menu',
+  selector: 'header-menu',
   templateUrl: './header-menu.component.html',
   styleUrl: './header-menu.component.css'
 })
-export class HeaderMenuComponent {
+export class HeaderMenuComponent implements OnInit {
+  btnLinks: string[] = ["Home", "Pages", "Services", "Project", "Blog", "Contact"]
+  
+  @Input()
+  logoImage: string = ''  
+  @Input()
+  imageSearch: string = ''
 
+  ngOnInit(): void {}
+
+  
 }
