@@ -1,0 +1,91 @@
+.aboutBox {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutBox .texts {
+  width: 25rem;
+}
+
+.aboutBox .texts .title {
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.aboutBox .texts .paragraph {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.aboutBox .button .phone .text .number {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.aboutBox .button .phone .text .text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  transform: translateY(-2px);
+}
+
+.button .phone {
+  display: flex;
+  align-items: center;
+}
+
+.button .phone .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button .phone .image {
+  width: 3rem;
+}
+
+.button .phone .image .icon {
+  width: 100%;
+}
+
+.button .buttonGet {
+  margin-top: 1rem;
+}
+
+.button .buttonGet .btn {
+  display: flex;
+  align-items: center;
+  background-color: #292f36;
+  color: #f6f6f6;
+  width: 14rem;
+  font-size: 0.9rem;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.025rem;
+  justify-content: space-around;
+  transition: 250ms all ease;
+}
+
+.button .buttonGet .btn:hover {
+  opacity: 75%;
+}
+
+.button .buttonGet .btn svg {
+  transform: translateY(1px);
+}
+
+.aboutBox .image {
+  width: 25rem;
+}
+
+.aboutBox .image .imageUrl {
+  width: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 5rem;
+  border-top-right-radius: 15rem;
+}
