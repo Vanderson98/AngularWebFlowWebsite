@@ -6,21 +6,11 @@ import {
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { HeaderMenuComponent } from './Components/header-menu/header-menu.component';
-import { BannerBackgroundComponent } from './Components/banner-background/banner-background.component';
-import { CardMoreComponent } from './Components/card-more/card-more.component';
-import { CardsComponent } from './Components/card-more/cards/cards.component';
+import { HomepageModule } from './pages/homepage/homepage.module'; // Import homepage.module
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderMenuComponent,
-    BannerBackgroundComponent,
-    CardMoreComponent,
-    CardsComponent,
-  ],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, HomepageModule], // Import components homepage
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })
