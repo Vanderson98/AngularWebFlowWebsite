@@ -1,1 +1,12 @@
-<p>commentary works!</p>
+<section class="boxCommentary">
+  <h1 class="title">what the people thinks about us</h1>
+  <section class="boxCards">
+    <app-card
+      *ngFor="let information of commentary"
+      imageProfile="{{ information.image }}"
+      name="{{ information.name }}"
+      city="{{ information.city }}"
+      commentary="{{ information.commentary }}"
+    ></app-card>
+  </section>
+</section>

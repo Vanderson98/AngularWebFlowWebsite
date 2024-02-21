@@ -7,6 +7,8 @@ import { CardMoreComponent } from './Components/card-more/card-more.component';
 import { CardsComponent } from './Components/card-more/cards/cards.component';
 import { AboutComponent } from './Components/about/about.component';
 import { CommentaryComponent } from './Components/commentary/commentary.component';
+import { CardsCommentaryComponent } from './Components/commentary/cards/cards.component';
+
 @NgModule({
   declarations: [
     HeaderMenuComponent,
@@ -15,6 +17,7 @@ import { CommentaryComponent } from './Components/commentary/commentary.componen
     CardsComponent,
     AboutComponent,
     CommentaryComponent,
+    CardsCommentaryComponent,
   ], // Declarations components
   exports: [
     HeaderMenuComponent,
@@ -23,6 +26,7 @@ import { CommentaryComponent } from './Components/commentary/commentary.componen
     CardsComponent,
     AboutComponent,
     CommentaryComponent,
+    CardsCommentaryComponent,
   ], // Exports components to app.module
   imports: [CommonModule],
 })

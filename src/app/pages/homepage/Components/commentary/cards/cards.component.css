@@ -1,0 +1,46 @@
+.boxCard {
+  background-color: #f6f6f6;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 18rem;
+  -webkit-box-shadow: 7px 7px 20px 5px rgba(37, 37, 37, 0.5);
+  -moz-box-shadow: 7px 7px 20px 5px rgba(37, 37, 37, 0.5);
+  box-shadow: 7px 7px 20px 5px rgba(37, 37, 37, 0.5);
+  height: 12rem;
+  transform: translateY(1rem);
+}
+
+.boxCard .informationsUser {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.boxCard .informationsUser .imageUser {
+  width: 3rem;
+  height: 3rem;
+}
+
+.boxCard .informationsUser .imageUser .image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.boxCard .informationsUser .informationsText .name {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: #292f36;
+}
+
+.boxCard .informationsUser .informationsText .city {
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  color: #4d5053;
+}
+
+.boxCard .commentary {
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
