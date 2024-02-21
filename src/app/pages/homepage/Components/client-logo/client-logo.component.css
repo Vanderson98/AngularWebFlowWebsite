@@ -1,0 +1,12 @@
+.imagesBrand {
+  display: flex;
+  max-width: 70rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  justify-content: space-around;
+}
+
+.imagesBrand .clientLogo {
+  width: 6rem;
+  height: 4.5rem;
+}
