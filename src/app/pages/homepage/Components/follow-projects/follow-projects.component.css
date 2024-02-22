@@ -1,0 +1,88 @@
+.boxProjects {
+  max-width: 70rem;
+  margin: 4rem auto;
+}
+
+.boxProjects .title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #292f36;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.boxProjects .subtitle {
+  color: #4d5053;
+  width: 37rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.boxProjects .projectBox {
+  max-width: 95%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+.boxProjects .projectBox .imageProject {
+  width: 25rem;
+  height: 25rem;
+}
+
+.boxProjects .projectBox .projectItem .image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.25rem;
+}
+
+.boxProjects .projectBox .borderRightTop .image {
+  border-top-right-radius: 80px !important;
+}
+
+.boxProjects .projectBox .borderLeftTop .image {
+  border-top-left-radius: 80px !important;
+}
+
+.boxProjects .projectBox .borderRightBottom .image {
+  border-bottom-right-radius: 80px !important;
+}
+
+.boxProjects .projectBox .borderLeftBottom .image {
+  border-bottom-left-radius: 80px !important;
+}
+
+.boxProjects .projectBox .borderRightBottom,
+.boxProjects .projectBox .borderLeftBottom {
+  margin-top: 50px;
+}
+
+.boxProjects .projectBox .others {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  transform: translateY(2px);
+  justify-content: space-between;
+}
+
+.boxProjects .projectBox .others .texts .nameProject {
+  color: #292f36;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.boxProjects .projectBox .others .texts .subnameProject {
+  color: #4d5053;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transform: translateY(-2px);
+}
+
+.boxProjects .projectBox .others .button {
+  padding: 0.25rem 0.5rem;
+}

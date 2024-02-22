@@ -1,0 +1,49 @@
+<section class="boxProjects">
+  <h1 class="title">Follow our projects</h1>
+  <h2 class="subtitle">
+    It is a long established fact that a reader will be distracted by the of
+    readable content of page lookings at its layouts points.
+  </h2>
+
+  <div class="projectBox">
+    <div
+      *ngFor="let product of productsInformations"
+      class="projectItem {{ product.Class }}"
+    >
+      <div class="imageProject">
+        <img
+          src="{{ product.URL }}"
+          alt="{{ product.Name }} image"
+          class="image"
+        />
+      </div>
+
+      <div class="others">
+        <div class="texts">
+          <h1 class="nameProject">{{ product.Name }}</h1>
+          <h2 class="subnameProject">{{ product.Subname }}</h2>
+        </div>
+        <button class="button">
+          <svg
+            width="50"
+            height="50"
+            viewBox="0 0 70 70"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M70 35C70 54.33 54.33 70 35 70C15.67 70 0 54.33 0 35C0 15.6701 15.67 3.05176e-05 35 3.05176e-05C54.33 3.05176e-05 70 15.6701 70 35Z"
+              fill="#F4F0EC"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M31.3356 44.7474C30.9229 44.3805 30.8857 43.7484 31.2526 43.3357L38.662 35L31.2526 26.6644C30.8857 26.2516 30.9229 25.6195 31.3356 25.2526C31.7484 24.8857 32.3805 24.9229 32.7474 25.3357L40.7474 34.3357C41.0842 34.7145 41.0842 35.2855 40.7474 35.6644L32.7474 44.6644C32.3805 45.0772 31.7484 45.1143 31.3356 44.7474Z"
+              fill="#292F36"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

@@ -9,6 +9,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { CommentaryComponent } from './Components/commentary/commentary.component';
 import { CardsCommentaryComponent } from './Components/commentary/cards/cards.component';
 import { ClientLogoComponent } from './Components/client-logo/client-logo.component';
+import { FollowProjectsComponent } from './Components/follow-projects/follow-projects.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ClientLogoComponent } from './Components/client-logo/client-logo.compon
     CommentaryComponent,
     CardsCommentaryComponent,
     ClientLogoComponent,
+    FollowProjectsComponent,
   ], // Declarations components
   exports: [
     HeaderMenuComponent,
@@ -30,6 +32,7 @@ import { ClientLogoComponent } from './Components/client-logo/client-logo.compon
     CommentaryComponent,
     CardsCommentaryComponent,
     ClientLogoComponent,
+    FollowProjectsComponent,
   ], // Exports components to app.module
   imports: [CommonModule],
 })
