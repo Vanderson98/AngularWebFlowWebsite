@@ -10,6 +10,7 @@ import { CommentaryComponent } from './Components/commentary/commentary.componen
 import { CardsCommentaryComponent } from './Components/commentary/cards/cards.component';
 import { ClientLogoComponent } from './Components/client-logo/client-logo.component';
 import { FollowProjectsComponent } from './Components/follow-projects/follow-projects.component';
+import { CounterComponent } from './Components/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { FollowProjectsComponent } from './Components/follow-projects/follow-pro
     CardsCommentaryComponent,
     ClientLogoComponent,
     FollowProjectsComponent,
+    CounterComponent,
   ], // Declarations components
   exports: [
     HeaderMenuComponent,
@@ -33,6 +35,7 @@ import { FollowProjectsComponent } from './Components/follow-projects/follow-pro
     CardsCommentaryComponent,
     ClientLogoComponent,
     FollowProjectsComponent,
+    CounterComponent,
   ], // Exports components to app.module
   imports: [CommonModule],
 })

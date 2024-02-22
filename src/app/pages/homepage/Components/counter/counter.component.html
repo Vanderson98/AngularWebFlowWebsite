@@ -1,0 +1,8 @@
+<section class="counterBox">
+  <ul class="counterInformations">
+    <li class="counterItem" *ngFor="let item of counterInformations">
+      <span class="number">{{ item.Year }}</span>
+      <span class="text {{ item.Class }}">{{ item.Text }}</span>
+    </li>
+  </ul>
+</section>

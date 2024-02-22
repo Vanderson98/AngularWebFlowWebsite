@@ -1,0 +1,44 @@
+.counterBox {
+  background-color: #f4f0ec;
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.counterBox .counterInformations {
+  max-width: 66rem;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 0.5rem;
+  justify-content: space-between;
+}
+
+.counterBox .counterInformations .counterItem {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 4rem;
+}
+
+.counterBox .counterInformations .counterItem .number {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #cda274;
+}
+
+.counterBox .counterInformations .counterItem .text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #4d5053;
+}
+
+.counterBox .counterInformations .counterItem .bar {
+  font-size: 2rem;
+  height: 80px;
+  width: 2px;
+  border-radius: 0.5rem;
+  background-color: #cda274;
+}
