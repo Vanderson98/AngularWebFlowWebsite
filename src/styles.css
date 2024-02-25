@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Segoe UI";
   box-sizing: border-box;
+  user-select: none !important;
 }
 
 button,

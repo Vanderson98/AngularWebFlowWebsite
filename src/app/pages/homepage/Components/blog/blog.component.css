@@ -1,0 +1,116 @@
+.boxNews {
+  max-width: 70rem;
+  margin: 6rem auto;
+}
+
+.boxNews .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxNews .texts .title {
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #292f36;
+  font-size: 1.5rem;
+}
+
+.boxNews .texts .subtitle {
+  color: #4d5053;
+  width: 40rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Format card*/
+.boxCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f0ec;
+  border: #e7e7e7 solid 1px;
+}
+
+.card path:nth-child(1) {
+  fill: #fff;
+}
+
+.card:nth-child(2n + 1) {
+  background-color: transparent;
+}
+
+.card:nth-child(2n + 1) path:nth-child(1) {
+  fill: #f4f0ec;
+}
+
+.card .imageCard,
+.card .imageCard .image {
+  width: 100%;
+}
+
+.card .imageCard {
+  position: relative;
+}
+
+.card .imageCard .image {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card .imageCard .tag {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 0.75rem;
+  text-transform: capitalize;
+  background-color: #f6f6f6;
+  color: #4d5053;
+  padding: 0.25rem 0.5rem;
+  font-weight: 400;
+  border-radius: 0.25rem;
+}
+
+.card .texts {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+}
+
+.card .texts .title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #292f36;
+  width: 15rem;
+  text-transform: capitalize;
+}
+
+.card .texts .footerCard {
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .texts .date {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #4d5053;
+  letter-spacing: 0.025rem;
+  text-transform: capitalize;
+}
