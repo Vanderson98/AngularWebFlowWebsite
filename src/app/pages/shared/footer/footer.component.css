@@ -1,0 +1,104 @@
+/* Format box footer */
+.footerBox {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.footerBox .internoLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 20rem;
+}
+
+.footerBox .internoLogo .imageLogo {
+  width: 20rem;
+  height: 4rem;
+}
+
+.footerBox .internoLogo .imageLogo .image {
+  width: 100%;
+}
+
+.footerBox .internoLogo .title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4d5053;
+}
+
+.footerBox .internoLogo .iconsSocials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+}
+
+.footerBox .internoLogo .iconsSocials .icon {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.footerBox .internoLogo .iconsSocials .icon:hover {
+  background-color: #25252525;
+}
+
+.footerBox .footerItem {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.footerBox .footerItem .title {
+  font-size: 1.2rem;
+  color: #292f36;
+  text-transform: capitalize;
+}
+
+.footerBox .footerItem .navList {
+  display: flex;
+  margin-top: 2.4rem;
+  height: 15rem;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footerBox .footerItem .navList .navItem {
+  list-style-type: none;
+  width: 15rem;
+}
+
+.footerBox .footerItem .navList .navItem .navLink {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #4d5053;
+  font-weight: 500;
+}
+
+.footerBox .footerItem .navList .navItem .navLink:hover {
+  opacity: 75%;
+  transition: 250ms all ease;
+}
+
+.footerBox .contact .navList {
+  height: 10rem;
+}
+
+/* Format box cop */
+.copyright {
+  width: 30rem;
+  margin: 0 auto;
+  margin-top: 6rem;
+  padding: 0.25rem 0;
+}
+
+.copyright .title {
+  text-align: center;
+  color: #4d5053;
+  font-weight: 500;
+  opacity: 75%;
+  font-size: 0.9rem;
+}
