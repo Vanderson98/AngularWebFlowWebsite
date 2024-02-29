@@ -1,0 +1,14 @@
+@media (max-width: 592px) {
+  .counterBox {
+    margin: 2rem auto;
+    margin-bottom: 0;
+  }
+
+  .counterBox .counterInformations {
+    flex-direction: column;
+  }
+
+  .counterBox .counterInformations .counterItem .bar {
+    display: none;
+  }
+}

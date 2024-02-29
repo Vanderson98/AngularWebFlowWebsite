@@ -4,7 +4,10 @@ import { commentaryText } from './commentaryCard';
 @Component({
   selector: 'app-commentary',
   templateUrl: './commentary.component.html',
-  styleUrl: './commentary.component.css',
+  styleUrls: [
+    './commentary.component.css',
+    './commentary-mobile.component.css',
+  ],
 })
 export class CommentaryComponent {
   commentary: commentaryText[] = [

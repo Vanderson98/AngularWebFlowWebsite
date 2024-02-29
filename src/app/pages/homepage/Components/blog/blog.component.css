@@ -18,7 +18,7 @@
 
 .boxNews .texts .subtitle {
   color: #4d5053;
-  width: 40rem;
+  max-width: 40rem;
   font-size: 1rem;
   margin: 0 auto;
   margin-top: 0.5rem;
@@ -37,7 +37,7 @@
 .card {
   border-radius: 1rem;
   padding: 1rem;
-  width: 20rem;
+  max-width: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -4,7 +4,7 @@ import { blogInterface } from './blogInterface';
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
-  styleUrl: './blog.component.css',
+  styleUrls: ['./blog.component.css', './blog-mobile.component.css'],
 })
 export class BlogComponent {
   articlesBlog: blogInterface[] = [

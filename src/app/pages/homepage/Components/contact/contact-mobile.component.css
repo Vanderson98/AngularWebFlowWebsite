@@ -1,0 +1,20 @@
+@media (max-width: 992px) {
+  .contactBox {
+    padding: 3rem 2rem;
+    margin: 2rem 0.5rem;
+  }
+
+  .contactBox .title {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .contactBox .subtitle {
+    text-align: center;
+  }
+
+  .contactBox .btnContact {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}

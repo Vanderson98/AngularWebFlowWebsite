@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+  .boxNews {
+    margin: 4rem auto;
+    margin-bottom: 0;
+  }
+
+  .boxNews .boxCard {
+    flex-wrap: wrap;
+    height: 55rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 592px) {
+  .boxNews {
+    margin: 2rem auto;
+    margin-bottom: 0;
+  }
+
+  .boxNews .texts .subtitle {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .boxNews .boxCard {
+    flex-direction: column;
+    height: 80rem;
+    flex-wrap: nowrap;
+  }
+
+  .boxCard .card {
+    margin: 0 0.5rem;
+  }
+}

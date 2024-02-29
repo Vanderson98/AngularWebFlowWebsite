@@ -10,11 +10,11 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  width: 20rem;
+  max-width: 20rem;
 }
 
 .footerBox .internoLogo .imageLogo {
-  width: 20rem;
+  max-width: 20rem;
   height: 4rem;
 }
 
@@ -32,7 +32,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 15rem;
+  max-width: 15rem;
 }
 
 .footerBox .internoLogo .iconsSocials .icon {
@@ -68,7 +68,7 @@
 
 .footerBox .footerItem .navList .navItem {
   list-style-type: none;
-  width: 15rem;
+  max-width: 15rem;
 }
 
 .footerBox .footerItem .navList .navItem .navLink {
@@ -89,7 +89,7 @@
 
 /* Format box cop */
 .copyright {
-  width: 30rem;
+  max-width: 30rem;
   margin: 0 auto;
   margin-top: 6rem;
   padding: 0.25rem 0;

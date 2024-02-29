@@ -4,7 +4,7 @@ import { footerInterfaceLink } from './footerInterface';
 @Component({
   selector: 'footer-menu',
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.css',
+  styleUrls: ['./footer.component.css', './footer-mobile.component.css'],
 })
 export class FooterComponent {
   pagesLinks: footerInterfaceLink[] = [

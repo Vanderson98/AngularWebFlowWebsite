@@ -13,3 +13,9 @@ button:focus {
   background: none;
   cursor: pointer;
 }
+
+@media (max-width: 790px) {
+  .bodyNoMove {
+    overflow: hidden;
+  }
+}

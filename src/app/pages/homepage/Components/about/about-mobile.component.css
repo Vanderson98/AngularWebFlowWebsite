@@ -1,0 +1,46 @@
+@media (max-width: 992px) {
+  .aboutBox {
+    margin: 4rem auto;
+    margin-bottom: 0;
+  }
+
+  .aboutBox .texts .title {
+    font-size: 1.6rem;
+  }
+
+  .aboutBox .texts .paragraph {
+    font-size: 0.9rem;
+  }
+
+  .aboutBox .button .phone .text .number {
+    font-size: 1rem;
+  }
+
+  .aboutBox .button .phone .text .textNumber {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 592px) {
+  .aboutBox {
+    flex-direction: column-reverse;
+    margin: 2rem auto;
+    margin-bottom: 0;
+  }
+
+  .aboutBox .texts {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutBox .texts .title,
+  .aboutBox .texts .paragraph {
+    text-align: center;
+  }
+
+  .aboutBox .image .imageUrl {
+    border-radius: 0.5rem;
+  }
+}

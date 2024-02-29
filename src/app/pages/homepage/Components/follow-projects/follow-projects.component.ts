@@ -4,7 +4,10 @@ import { ProjectsInformation } from './followProject';
 @Component({
   selector: 'follow-projects',
   templateUrl: './follow-projects.component.html',
-  styleUrl: './follow-projects.component.css',
+  styleUrls: [
+    './follow-projects.component.css',
+    './follow-projects-mobile.component.css',
+  ],
 })
 export class FollowProjectsComponent {
   productsInformations: ProjectsInformation[] = [

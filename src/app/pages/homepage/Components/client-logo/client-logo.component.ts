@@ -4,7 +4,10 @@ import { clientLogoURL } from './clientLogo';
 @Component({
   selector: 'app-client-logo',
   templateUrl: './client-logo.component.html',
-  styleUrl: './client-logo.component.css',
+  styleUrls: [
+    './client-logo.component.css',
+    './client-logo-mobile.component.css',
+  ],
 })
 export class ClientLogoComponent {
   urlsImage: clientLogoURL[] = [

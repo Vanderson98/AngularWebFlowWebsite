@@ -13,9 +13,11 @@
 
 .bannerBackground .texts {
   position: absolute;
-  top: 35%;
-  left: 16.1%;
-  width: 22rem;
+  max-width: 70rem;
+  width: 100%;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 50%);
 }
 
 .bannerBackground .texts .title {
@@ -36,7 +38,7 @@
 .bannerBackground .texts .btnStart {
   display: flex;
   align-items: center;
-  width: 12rem;
+  max-width: 12rem;
   letter-spacing: 0.05rem;
   margin-top: 1.5rem;
   color: #f6f6f6;
@@ -51,4 +53,25 @@
 
 .bannerBackground .texts .btnStart:hover {
   opacity: 75%;
+}
+
+.bannerBackground .texts .btnStart svg {
+  transform: translateY(1px);
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .bannerBackground .texts {
+    left: 55%;
+  }
+}
+
+@media (min-width: 992px) {
+  .bannerBackground .texts .title {
+    max-width: 23rem;
+  }
+
+  .bannerBackground .texts .subtitle {
+    max-width: 25rem;
+  }
 }

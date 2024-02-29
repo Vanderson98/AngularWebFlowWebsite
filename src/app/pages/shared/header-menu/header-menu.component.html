@@ -3,6 +3,12 @@
     <img src="{{ logoImage }}" alt="Interno Logo" />
   </section>
 
+  <button class="btnMobile" (click)="actionMenu('open')">
+    <div></div>
+    <div></div>
+    <div></div>
+  </button>
+
   <section class="buttonsLink">
     <ul class="navList">
       <li class="navItem" *ngFor="let i of btnLinks">
@@ -10,7 +16,7 @@
           {{ i }}
         </a>
       </li>
-      <li class="navItem">
+      <li class="navItem searchNav">
         <button class="searchItem">
           <img src="{{ imageSearch }}" alt="Search image" />
         </button>

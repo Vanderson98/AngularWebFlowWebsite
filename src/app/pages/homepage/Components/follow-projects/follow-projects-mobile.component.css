@@ -1,0 +1,46 @@
+@media (max-width: 992px) {
+  .boxProjects {
+    margin: 2rem auto;
+    margin-bottom: 1rem;
+  }
+
+  .boxProjects .projectBox {
+    height: 65rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    display: flex;
+  }
+
+  .boxProjects .projectBox .projectItem {
+    width: 45%;
+  }
+
+  .boxProjects .subtitle {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .boxProjects .projectBox .borderRightTop .image,
+  .boxProjects .projectBox .borderLeftTop .image,
+  .boxProjects .projectBox .borderLeftBottom .image,
+  .boxProjects .projectBox .borderRightBottom .image {
+    border-radius: 0.5rem !important;
+  }
+}
+
+@media (max-width: 592px) {
+  .boxProjects .projectBox {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 130rem;
+    align-items: center;
+  }
+
+  .boxProjects .projectBox .projectItem {
+    width: 90%;
+  }
+
+  .boxProjects .projectBox .borderRightTop {
+    margin-bottom: 1.5rem;
+  }
+}

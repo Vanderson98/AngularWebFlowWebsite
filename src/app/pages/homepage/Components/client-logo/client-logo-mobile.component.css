@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+  .imagesBrand {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 3rem;
+    align-items: center;
+    margin: 4rem auto;
+  }
+
+  .imagesBrand .clientLogo {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 592px) {
+  .imagesBrand {
+    margin: 2rem auto;
+    margin-bottom: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 25rem;
+  }
+}

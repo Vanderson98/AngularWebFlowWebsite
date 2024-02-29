@@ -7,7 +7,7 @@
 }
 
 .aboutBox .texts {
-  width: 25rem;
+  max-width: 25rem;
 }
 
 .aboutBox .texts .title {
@@ -35,7 +35,7 @@
 .button .phone {
   display: flex;
   align-items: center;
-  width: 11em;
+  max-width: 11em;
   justify-content: space-between;
 }
 
@@ -62,7 +62,7 @@
   align-items: center;
   background-color: #292f36;
   color: #f6f6f6;
-  width: 14rem;
+  max-width: 14rem;
   font-size: 0.9rem;
   border-radius: 0.5rem;
   padding: 1rem 2rem;
@@ -79,10 +79,11 @@
 
 .button .buttonGet .btn svg {
   transform: translateY(1px);
+  margin-left: 0.5rem;
 }
 
 .aboutBox .image {
-  width: 25rem;
+  max-width: 25rem;
 }
 
 .aboutBox .image .imageUrl {

@@ -1,0 +1,104 @@
+@media (max-width: 790px) {
+  .menuHeader {
+    padding: 1rem 0.15rem;
+  }
+
+  .buttonsLink,
+  .buttonsLink .navList {
+    display: none;
+  }
+
+  .buttonsLink .navList .navItem .searchItem {
+    display: none !important;
+  }
+
+  /* Button Mobile */
+  .btnMobile {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    padding: 0.75rem;
+    justify-content: space-between;
+  }
+
+  .btnMobile div {
+    margin-top: 0.25rem;
+    width: 25px;
+    transition: 500ms all ease;
+    border-radius: 0.5rem;
+    height: 5px;
+    background-color: #cda274;
+  }
+
+  .btnMobile div:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .btnMobile div:nth-child(2) {
+    width: 20px;
+  }
+
+  .btnMobile div:nth-child(3) {
+    width: 15px;
+  }
+
+  /* Menu Open */
+
+  .btnOpen {
+    align-items: start;
+    position: absolute;
+    right: 5px;
+    padding: 0;
+    z-index: 1000;
+  }
+
+  .btnOpen div {
+    width: 25px !important;
+    background-color: #f6f6f6;
+  }
+
+  .btnOpen div:nth-child(2) {
+    width: 0 !important;
+  }
+
+  .btnOpen div:nth-child(1) {
+    transform: rotate(45deg) translate(0, 12px);
+  }
+
+  .btnOpen div:nth-child(3) {
+    transform: rotate(-45deg) translate(0, -13px);
+  }
+
+  /* View menu */
+  .buttonView,
+  .buttonView .navList {
+    display: flex;
+  }
+
+  .buttonView .navList {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    padding-top: 2rem;
+    height: 100vh;
+    background-color: #cda274;
+    right: 0;
+    width: 15rem;
+    animation: scaleNavOpen 0.45s linear 0s forwards;
+  }
+
+  .buttonView .navList .navItem .navLink {
+    color: #f6f6f6;
+  }
+
+  @keyframes scaleNavOpen {
+    0% {
+      transform: translateX(10rem);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}

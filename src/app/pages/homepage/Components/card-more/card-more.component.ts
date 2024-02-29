@@ -4,7 +4,7 @@ import { TextCard } from './textCard'; // Import interface
 @Component({
   selector: 'card-more',
   templateUrl: './card-more.component.html',
-  styleUrl: './card-more.component.css',
+  styleUrls: ['./card-more.component.css', './card-more-mobile.component.css'],
 })
 export class CardMoreComponent {
   textsCard: TextCard[] = [

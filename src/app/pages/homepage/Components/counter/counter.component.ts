@@ -4,7 +4,7 @@ import { CounterInterface } from './counterObj';
 @Component({
   selector: 'app-counter',
   templateUrl: './counter.component.html',
-  styleUrl: './counter.component.css',
+  styleUrls: ['./counter.component.css', './counter-mobile.component.css'],
 })
 export class CounterComponent {
   counterInformations: CounterInterface[] = [

@@ -25,7 +25,7 @@
   border-radius: 0.5rem;
   font-size: 1.2rem;
   font-weight: 600;
-  width: 15rem;
+  max-width: 15rem;
   text-transform: capitalize;
   display: flex;
   align-items: center;
@@ -42,4 +42,5 @@
 
 .contactBox .btnContact svg {
   transform: translateY(2px);
+  margin-left: 0.5rem;
 }

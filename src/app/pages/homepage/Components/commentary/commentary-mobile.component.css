@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+  .boxCommentary {
+    margin: 4rem auto;
+    margin-bottom: 0;
+  }
+
+  .boxCards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 30rem;
+  }
+}
+
+@media (max-width: 592px) {
+  .boxCommentary {
+    margin: 2rem auto;
+    margin-bottom: 0;
+  }
+
+  .boxCards {
+    flex-direction: column;
+    height: 45rem;
+  }
+}

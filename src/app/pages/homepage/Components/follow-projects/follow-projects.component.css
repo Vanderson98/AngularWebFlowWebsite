@@ -13,7 +13,7 @@
 
 .boxProjects .subtitle {
   color: #4d5053;
-  width: 37rem;
+  max-width: 37rem;
   font-size: 1rem;
   margin: 0 auto;
   text-align: center;
@@ -31,7 +31,7 @@
 }
 
 .boxProjects .projectBox .imageProject {
-  width: 25rem;
+  max-width: 25rem;
   height: 25rem;
 }
 

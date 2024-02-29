@@ -1,5 +1,5 @@
 .boxCard {
-  width: 15rem;
+  max-width: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
