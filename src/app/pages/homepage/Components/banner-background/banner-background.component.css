@@ -62,7 +62,8 @@
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .bannerBackground .texts {
-    left: 55%;
+    left: 50%;
+    max-width: 60rem;
   }
 }
 
