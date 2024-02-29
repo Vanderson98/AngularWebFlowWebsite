@@ -8,6 +8,7 @@
   .footerBox .internoLogo,
   .footerBox .footerItem {
     max-width: 20rem;
+    width: 100%;
   }
 
   .footerBox .services,
